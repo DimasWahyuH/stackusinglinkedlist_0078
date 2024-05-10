@@ -95,3 +95,6 @@ int main() {
             }
             break;
         case 3:
+            if (!stack.isEmpty()) {
+                stack.peek();
+            }
