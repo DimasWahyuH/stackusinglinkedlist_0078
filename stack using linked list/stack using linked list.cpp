@@ -41,3 +41,6 @@ public:
         top = top->next; // Update the top pointer to the next node
 
     }
+
+    //  peek/Top operation: Retrieve the value of the topmost element without removing it
+    void peek() {
